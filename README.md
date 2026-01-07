@@ -15,6 +15,8 @@
 - ✅ **实战项目** - 从简单到复杂的完整项目
 - ✅ **详细文档** - 速查表、常见错误、学习资源
 
+---
+
 ## 🚀 快速开始（5分钟内）
 
 ### 1. 获取代码
@@ -24,7 +26,7 @@ git clone https://github.com/Steve-1219/c-learning.git
 
 # 进入项目目录
 cd c-learning
-###2. 运行第一个程序
+2. 运行第一个程序
 bash
 
 复制
@@ -36,7 +38,7 @@ cd src/basics
 # 编译运行 Hello World
 gcc hello-world.c -o hello
 ./hello
-###3. 查看输出
+3. 查看输出
 text
 
 复制

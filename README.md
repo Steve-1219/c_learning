@@ -37,6 +37,11 @@ gcc hello-world.c -o hello
 Hello, C World!
 Welcome to Steve-1219's C Learning Project!
 
+
+### 第二部分：项目结构（单独的部分）
+```markdown
+## 📁 项目结构概览
+
 c-learning/
 ├── 📄 README.md                    # 你现在阅读的文件
 ├── 📘 tutorial.md                  # 📚 完整教程文档

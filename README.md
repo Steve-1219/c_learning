@@ -26,3 +26,13 @@ git clone https://github.com/Steve-1219/c-learning.git
 
 # 进入项目目录
 cd c-learning
+
+# 进入基础示例目录
+cd src/basics
+
+# 编译运行 Hello World
+gcc hello-world.c -o hello
+./hello
+
+Hello, C World!
+Welcome to Steve-1219's C Learning Project!

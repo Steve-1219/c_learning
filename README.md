@@ -239,3 +239,20 @@ int main() {
 ```
 
 ---
+
+## 🛠️ 开发工具推荐
+
+### 编辑器/IDE
+| 工具 | 适用场景 | 推荐理由 |
+|------|---------|---------|
+| **VS Code** | 初学者/进阶 | 轻量、插件丰富、跨平台 |
+| **Code::Blocks** | 初学者 | 专为C/C++设计、简单易用 |
+| **CLion** | 专业开发 | 功能强大、智能提示 |
+| **Vim/Neovim** | 高手向 | 高效、可定制 |
+
+### 在线编译器
+- 🌐 [OnlineGDB](https://www.onlinegdb.com/) - 支持调试的在线编译器
+- 🌐 [Replit](https://replit.com/) - 完整的在线开发环境
+- 🌐 [Compiler Explorer](https://godbolt.org/) - 查看汇编代码
+
+---

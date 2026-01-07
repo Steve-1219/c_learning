@@ -4,6 +4,10 @@
 ![GitHub repo size](https://img.shields.io/github/repo-size/Steve-1219/c-learning)
 ![GitHub License](https://img.shields.io/github/license/Steve-1219/c-learning)
 ![GitHub stars](https://img.shields.io/github/stars/Steve-1219/c-learning?style=social)
+![GitHub issues](https://img.shields.io/github/issues/Steve-1219/c-learning)
+![GitHub forks](https://img.shields.io/github/forks/Steve-1219/c-learning)
+![GitHub contributors](https://img.shields.io/github/contributors/Steve-1219/c-learning)
+![GitHub top language](https://img.shields.io/github/languages/top/Steve-1219/c-learning)
 
 > 一个完整的 C 语言学习项目，包含教程、示例、练习和实战项目。由 Steve-1219 创建和维护。
 

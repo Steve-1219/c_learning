@@ -209,11 +209,7 @@ int main() {
 
 | 文档 | 说明 | 链接 |
 |------|------|------|
-| 📘 **完整教程** | 从零到精通的系统教程 | [tutorial.md](tutorial.md) |
-| ⚙️ **环境配置** | 详细的安装配置指南 | [setup-guide.md](setup-guide.md) |
-| 💻 **代码示例** | 所有示例代码索引 | [examples.md](examples.md) |
-| 🧪 **练习题库** | 分级练习题和答案 | [practice-exercises.md](practice-exercises.md) |
-| 🚀 **项目实战** | 完整项目开发指南 | [projects.md](projects.md) |
+| ⚙️ **环境配置** | 详细的安装配置指南 | [setup-guide.md](setup-guide.md) ||
 | 📋 **速查表** | C语言语法速查 | [docs/c-cheatsheet.md](docs/c-cheatsheet.md) |
 | ⚠️ **常见错误** | 新手常见错误及解决 | [docs/common-errors.md](docs/common-errors.md) |
 | 🔗 **学习资源** | 推荐书籍和网站 | [docs/resources.md](docs/resources.md) |

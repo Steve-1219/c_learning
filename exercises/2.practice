@@ -11,3 +11,16 @@ int main()
 }
 
 
+//随机产生两个三位的自然数，并求其平均值
+int main()
+{
+    int x,y;
+    double average;
+    x=rand()%900+100;
+    y=rand()%900+100;
+    average=(x+y)/2.0;
+    printf("%.2lf\n",average);
+    return 0;
+}
+
+

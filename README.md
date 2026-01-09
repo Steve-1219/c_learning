@@ -326,9 +326,9 @@ Permission is hereby granted...
 ### 如果你是初学者：
 1. 阅读 [setup-guide.md](setup-guide.md) 配置环境
 2. 动手运行 `src/basics/` 中的示例
-3. 完成 [exercises/beginner/](exercises/beginner/) 中的练习题
+3. 完成 [exercises](exercises) 中的练习题
 
 ### 如果你已有基础：
-1. 直接挑战 [exercises/intermediate/](exercises/intermediate/) 中的练习题
+1. 直接挑战 [exercises](exercises) 中的练习题
 2. 查看 [projects/](projects/) 中的实战项目
 3. 贡献你的代码或改进建议

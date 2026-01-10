@@ -1,1 +1,85 @@
+//求1!+2!+3!+...+10!
+int main() {
+    int n,sum=0;
+    for(n=1;n<=10;n++)
+    {
+        sum+=n*n;
+    }
+    printf("%d",sum);
+    return 0;
+}
+
+
+//输出数字金字塔，第一行是1个1，第二行是2个2...
+int main() {
+    int i,j,n,k;
+    printf("输入金字塔的层数：");
+    scanf_s("%d",&n);
+    for(i=1;i<=n;i++)
+    {
+        for(k=1;k<=n-i;k++)
+        {
+            printf(" ");
+        }
+        for(j=1;j<=i;j++)
+        {
+            printf("%d ",i);
+        }
+        printf("\n");
+    }
+    return 0;
+}
+
+
+//输入一些字符，数字，字母，空格和其他的，统计个数
+int main() {
+    int letters = 0;      
+    int digits = 0;       
+    int spaces = 0;       
+    int others = 0;       
+    unsigned char ch;
+
+    printf("请输入字符（输入回车键结束输入）：\n");
+    
+    while ((ch = getchar()) != '\n') {
+        if ((ch >= 'a' && ch <= 'z') || (ch >= 'A' && ch <= 'Z')) {
+            letters++;   
+        }
+        else if (ch >= '0' && ch <= '9') {
+            digits++;    
+        }
+        else if (ch == ' ') {
+            spaces++;     
+        }
+        else {
+            others++;     
+        }
+    }
+    
+    printf("统计结果：\n");
+    printf("字母个数：%d\n", letters);
+    printf("数字个数：%d\n", digits);
+    printf("空格个数：%d\n", spaces);
+    printf("其他字符个数：%d\n", others);
+    printf("总字符数：%d\n", letters + digits + spaces + others);
+
+    return 0;
+}
+
+
+//打印九九乘法表
+int main() {
+    int i, j;
+    for (i = 1; i <= 9; i++)
+    {
+        for(j=1;j<=i;j++)
+        {
+            printf("%d=%d*%d\t",j,i,i*j);
+        }
+        printf("\n");
+    }
+    return 0;
+}
+
+
 

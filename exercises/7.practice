@@ -1,1 +1,88 @@
+//输入月份，输出月份的英文名称
+
+
+int main() {
+    char *month[]={"January","February","March"};
+    int m;
+    printf("请输入月份的数字：");
+    scanf_s("%d",&m);
+    printf("%s",month[m-1]);
+    return 0;
+}
+
+
+//使指针变量指向C program，输出字符串的首字符和整个字符串，用指针变量输出字符串的第五个字符
+
+
+int main() {
+    char *a="C program";
+    printf("%c",*a);
+    printf("%c",*(a+5));
+
+    return 0;
+}
+
+
+//将一个字符串逆序输出
+
+
+int main() {
+    char str[60];
+    char *p;
+    unsigned long n;
+
+    printf("请输入字符串：");
+    scanf("%s", str);
+
+    n = strlen(str);
+
+    p = str + n - 1;
+
+    while(p >= str) {
+        printf("%c", *p);
+        p--;
+    }
+    printf("\n");
+
+    return 0;
+}
+
+
+//输入年月日，计算这是一年的第多少天
+
+
+int main() {
+    int year, month, day;
+    int days_in_month[] = {31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
+    int total_days = 0;
+
+    printf("请输入年月日（格式：年 月 日）：");
+    scanf_s("%d %d %d", &year, &month, &day);
+
+    if(month < 1 || month > 12 || day < 1 || day > 31) {
+        printf("输入日期无效！\n");
+        return 1;
+    }
+
+    int is_leap_year = 0;
+    if((year % 4 == 0 && year % 100 != 0) || (year % 400 == 0)) {
+        is_leap_year = 1;
+        days_in_month[1] = 29;
+    }
+
+    if(day > days_in_month[month-1]) {
+        printf("错误：%d月没有%d天！\n", month, day);
+        return 1;
+    }
+
+    for(int i = 0; i < month - 1; i++) {
+        total_days += days_in_month[i];
+    }
+
+    total_days += day;
+
+    printf("%d年%d月%d日 是这一年的第 %d 天\n", year, month, day, total_days);
+
+    return 0;
+}
 
